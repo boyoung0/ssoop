@@ -1,0 +1,20 @@
+늦게 오신분은
+=> github.com/codenuri/ssoop/ot.txt 확인해 보세요
+
+강석민 강사 ( smkang @ codenuri.co.kr )
+1. 실습환경 : visual studio 2022 community
+=> visualstudio.net 에서 설치하시면 됩니다.
+=> 설치시 "C++ 을 사용한 데스크탑 개발" 을 반드시 체크해주세요
+
+2. github.com/codenuri/ssoop  에서 "DAY1.zip" 받으세요
+3. 수업시간
+   오전수업 : 08:30 ~ 11:50  - 3번 수업
+   점심시간 : 11:50 ~ 13:00
+   오후수업 : 13:00 ~ 17:20  - 4번 
+   55 ~ 60분 수업.  15분 휴식
+4. 최종평가 : 5일차(금요일)  오후 4:00 ~ 5:00
+   필기, 객관식 + 단답형 20 문제
+5. 
+
+
+
