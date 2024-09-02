@@ -16,6 +16,8 @@ typedef int x[2];	// x는 int[2] 배열 타입
 typedef void foo();	// foo 는 함수 타입
 typedef void(*f)(); // f 는 함수 포인터 타입
 
+foo goo; // void goo();  // 즉, goo 함수 선언.
+
 int main()
 {
 	x arr = { 1,2 }; // int arr[2] = {1,2}
