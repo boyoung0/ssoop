@@ -11,7 +11,10 @@ int main()
 
 	// C++11 의 새로운 for 문
 	// => 아래 코드는 위와 유사한 의미.
-	for (int e : x)
+	// => python, C# 과 유사한 코드
+	// => ranged - for 라고 부릅니다.
+	// => 거꾸로, 2칸씩, 5개만... => 모두 C++20 부터 가능.
+	for (auto e : x)
 	{
 		std::cout << e << std::endl; 
 	}
