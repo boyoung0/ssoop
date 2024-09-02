@@ -2,6 +2,8 @@
 
 // 핵심 : namespace 안에 있는 요소에 접근하는 3가지 방법
 
+// 권장 : 완전한 이름(Qualified name) 사용하세요..
+
 namespace Audio
 {
 	void init() { printf("Audio init\n"); }
