@@ -28,6 +28,15 @@ int main()
 	// =이 없는 경우 : direct initialization(직접 초기화)
 	// =이 있는 경우 : copy   initialization(복사 초기화)
 	// 차이점은 내일(생성자 배울때). 지금은 위2개가 유사하다고 생각해도 됩니다.
+
+	// prevent narraw
+
+	int n4 = 3.4;
+	int n5 = { 3.4 };
+	int n6 { 3.4 };
+
+	char c1 = 500;
+	char c2{ 500 };
 }
 
 
