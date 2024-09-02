@@ -29,14 +29,16 @@ int main()
 	// =이 있는 경우 : copy   initialization(복사 초기화)
 	// 차이점은 내일(생성자 배울때). 지금은 위2개가 유사하다고 생각해도 됩니다.
 
-	// prevent narraw
+	// prevent narrow
 
-	int n4 = 3.4;
-	int n5 = { 3.4 };
-	int n6 { 3.4 };
+	int n4 = 3.4; // 데이타 손실 발생하지만 C/C++ 은 허용(경고 발생)
+					// 대부분의 다른 언어는 에러
 
-	char c1 = 500;
-	char c2{ 500 };
+	int n5 = { 3.4 }; // error
+	int n6 { 3.4 };	  // error
+
+	char c1 = 500; // ok. 경고발생할수는 있음. 
+	char c2{ 500 };// error. 
 }
 
 
