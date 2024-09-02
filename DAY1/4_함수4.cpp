@@ -21,6 +21,12 @@ T square(T a)
 
 int main()
 {
-	square(3);
-	square(3.4);
+//	square<int>(3);		// 1. 이순간 컴파일러가 square(int) 함수생성
+						// 2. 이 위치는 "call square(3)" 으로 변경
+
+// square<double>(3.4);// 1. square(double) 함수 생성
+						// 2. call square(3.4)
+
+	// 타입인자 생략시 "함수 인자로 타입 결정"
+	square(3); // square<int>(3)
 }
