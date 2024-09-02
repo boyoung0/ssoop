@@ -24,4 +24,9 @@ int main()
 							// mov n, eax
 }
 
+// 확인하는 법
+// godbolt.org 에서
+// msvc 컴파일러(visual studio 컴파일러) 선택후, -Ob1 옵션 적용
 
+// -O2 : 속도를 위한 모든 최적화 해달라는 것
+// -Ob1 : 인라인 치환만 해달라(VS 전용, g++ 안됨)
