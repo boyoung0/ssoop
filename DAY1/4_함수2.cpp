@@ -4,6 +4,10 @@
        int add1(int a, int b) { return a + b; }
 inline int add2(int a, int b) { return a + b; }
 
+// 인라인 함수
+// => 함수의 기계어 코드를 호출하는 위치에 치환해달라.
+// 의도 : 실제 호출이 아닌 치환이므로 빠르다.
+
 int main()
 {
 	int n1 = add1(1, 2);	// 1. 인자를 약속된 장소에 넣고			
