@@ -7,8 +7,8 @@
 
 // C 용헤더		C++ 에서 새로만든 헤더
 // <xxx.h> =====> <cxxx>
-// <stdlib.h> ==> < ? >
-// <string.h> ==> < ? >
+// <stdlib.h> ==> <cstdlib>
+// <string.h> ==> <cstring>
 
 
 int main()
@@ -18,3 +18,12 @@ int main()
 
 	std::printf("hello\n"); // ??
 }
+
+/*
+// namespace 는 열려있다
+// a.h
+namespace AAA {}
+
+// b.h
+namespace AAA {}
+*/
